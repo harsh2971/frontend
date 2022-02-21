@@ -1,0 +1,370 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+html{
+    font-size: 62.5%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.main-head
+{
+    background: rgba(19, 28, 39,1);
+    position: sticky;
+    top:0px;
+    z-index:1;
+   
+}
+
+
+nav{
+    display:flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    width:90%;
+    min-height: 10vh;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+   
+    
+  
+    
+    
+  
+
+}
+
+.items
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    
+    align-items: center;
+
+
+
+}
+
+.hero
+{
+
+    font-family: 'Poppins', sans-serif;
+    background-image:linear-gradient(black,transparent), url("./img/landing-page.jpg");
+    background-size: cover;
+    height:100%;
+    background-position: center;
+    color: white;
+    min-height: 90vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.hero h2{
+    margin-bottom: 2rem;
+    font-size: 4.8rem;
+    
+}
+
+.hero p{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h1{
+   font-size:  5.6rem;
+   cursor: pointer;
+   font-family: 'Pattaya', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    flex:1 1 40rem;
+   
+    font-size: medium;
+}
+nav li{
+    cursor: pointer;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    transition:all ease-out 0.5s ease;
+  
+    
+}
+
+
+#logo
+{
+    flex:2 1 40rem;
+    cursor: pointer;
+}
+
+button
+{
+    color:white;
+    border-radius: 62px;
+    background-color: royalblue;
+    border-width: 0;
+    font-weight: bold;
+    cursor: pointer;
+    padding:10px 5px;
+    opacity:70%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+button:hover{
+    background-color: grey;
+    font-size: 2rem;
+    
+}
+
+
+
+/* LOCATIONS SECTION */
+
+#locations
+{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),transparent),url("./img/new-york-page.png");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    position: relative;
+    align-items: center;
+   
+}
+
+.locations-head
+{
+    width:90%;
+    margin:auto;
+}
+
+.locations-head h2{
+    font-size: large;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    
+}
+.locations-head h3{
+    font-size:medium;
+    
+   
+  
+    font-weight:light;
+}
+
+.cloud{
+    position:absolute;
+    top:0%;
+    right:0%;
+}
+
+.moving-cloud-1{
+
+
+
+}
+.moving-cloud-2{
+    top:20%;
+    opacity:0.5%;
+    z-index: -1;
+}
+
+/*BENEFITS  */
+
+.benefits-head{
+    background: rgba(19, 28, 39,0.9);
+    padding:3rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align:center
+}
+
+.benefits-head h2{
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.benefits-head h3{
+    font-weight: 300;
+}
+
+
+.cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background-color: white;
+    flex:1 1 25rem;
+    min-height: 40vh;
+    margin:2rem 5rem;
+    box-shadow:  0px 10px 10px rgba(0,0,0,0.5);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.card h4{
+    padding:3rem;
+    font-size: medium;
+}
+
+.card p{
+    padding:3rem;
+    font-size: medium;
+}
+
+.card img{
+    height: 100px;
+    max-width: 15%;
+    margin:auto;
+}
+
+.card-icon{
+    background-color: rgba(19, 28, 39,0.9);
+}
+
+
+#contacts
+{
+    min-height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(0,0,0,0.5),transparent),url('./img/contact-mountain.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wrapper{
+    background:rgba(19, 28, 39,0.8);
+    width:60%;
+    color:white;
+    border-radius: 20px;
+}
+.form-head
+{
+    text-align: center;
+    padding:4rem;
+}
+.name-form,
+.email-form{
+    padding:3rem;
+    text-align: center;
+}
+.form-wrapper label{
+    margin:0rem 3rem;
+}
+
+.form-wrapper input{
+    padding:1rem 3rem;
+}
+
+.form-wrapper button{
+    width: 100%;
+    padding:2rem;
+    margin-top:8rem;
+   
+}
+
+footer{
+    color: white;
+    background: rgba(19, 28, 39,1);
+    
+}
+
+.footer-wrapper
+{
+    display:flex;
+    padding:2rem;
+    width:90%;
+    min-height: 10vh;
+    margin: auto;
+    align-items: center;
+    
+}
+
+footer h4{
+    flex:1 1 40rem;
+}
+
+.footer-wrapper ul{
+    list-style: none;
+    display: flex;
+    flex:1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width:900px)
+{
+    nav{
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+    #logo
+    {
+        padding: 2rem;
+    }
+
+    .cloud{
+        height:40rem;
+    }
+
+    .moving-cloud-1
+    {
+        z-index: -1;
+    }
+
+    .moving-cloud-2{
+        z-index: -2;
+    }
+
+    .form-wrapper{
+        width: 100%;
+        padding-bottom: 10rem;
+    }
+}
+
